@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebListWorkers.Interfaces;
 using WebListWorkers.Models;
 
-namespace WebListWorkers
+namespace WebListWorkers.Service
 {
-    public class WorkService:IWorkService
+    public class WorkService : IWorkService
     {
         ApplicationContext _context;
         public WorkService(ApplicationContext context)
@@ -38,7 +39,7 @@ namespace WebListWorkers
         }
         public Worker FindWorker(int? id)
         {
-          return  _context.Workers.Find(id) ;
+            return _context.Workers.Find(id);
         }
     }
 }

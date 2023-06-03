@@ -1,6 +1,6 @@
 ﻿using WebListWorkers.Models;
 
-namespace WebListWorkers
+namespace WebListWorkers.Interfaces
 {
     public interface IWorkService
     {

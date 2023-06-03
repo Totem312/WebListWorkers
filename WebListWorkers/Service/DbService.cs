@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace WebListWorkers
+namespace WebListWorkers.Service
 {
     public static class DbService
     {

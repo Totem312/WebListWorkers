@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebListWorkers.Interfaces;
 using WebListWorkers.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace WebListWorkers.Controllers
 {
-
+    /// <summary>
+    /// Контроллер для справочника работников
+    /// </summary>
     public class WorkerController : Controller
     {
         IWorkService _work;

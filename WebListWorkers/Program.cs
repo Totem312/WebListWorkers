@@ -1,4 +1,5 @@
-using WebListWorkers;
+using WebListWorkers.Interfaces;
+using WebListWorkers.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
