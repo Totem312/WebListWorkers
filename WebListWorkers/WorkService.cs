@@ -10,6 +10,7 @@ namespace WebListWorkers
         public WorkService(ApplicationContext context)
         {
             _context = context;
+            
         }
         public List<Worker> GetWorkers()
         {
