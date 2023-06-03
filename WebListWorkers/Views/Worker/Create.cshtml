@@ -1,0 +1,40 @@
+﻿
+
+@model Worker
+
+<h2>Создать нового сотрудника</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="FullName" class="control-label">ФИО</label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DepartmentName" class="control-label">Отдел</label>
+        <input asp-for="DepartmentName" class="form-control" />
+        <span asp-validation-for="DepartmentName" class="text-danger"></span>
+    </div>
+   <div class="form-group">
+        <label asp-for="Phone" class="control-label">Телефон </label>
+        <<input asp-for="Phone" class="form-control" id="phone" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Photo" class="control-label">Ссылка на фотографию</label>
+        <input asp-for="Photo" class="form-control" />
+        <span asp-validation-for="Photo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Создать" class="btn btn-primary" />
+    </div>
+</form>
+@section scripts {
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.5/jquery.inputmask.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('#phone').inputmask('+7(999)999-99-99');
+                });
+            </script>
+} 

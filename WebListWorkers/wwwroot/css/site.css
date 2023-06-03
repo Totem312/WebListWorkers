@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+    td img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    td button {
+        margin: 5px;
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+.create-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    .create-button:hover, td button:hover {
+        background-color: #3e8e41;
+    }
