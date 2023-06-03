@@ -1,4 +1,4 @@
-insert into Workers (FullName, Phone, DepartmentName, Photo) values ('Руснак данила Александринович', '+79531979384', 'Skimia', 'https://sun9-35.userapi.com/impg/Ye2pCQVts57VyB0SDc4ZygBHi6qY-_F4lkdJpQ/eq3l4a9tH74.jpg?size=486x1080&quality=95&sign=19a4f26e04585b2ebcda0eafc58faa0a&type=album');
+insert into Workers (FullName, Phone, DepartmentName, Photo) values ('Rusnak Dalila Alexandrinovich', '+79531979384', 'Skimia', 'https://sun9-35.userapi.com/impg/Ye2pCQVts57VyB0SDc4ZygBHi6qY-_F4lkdJpQ/eq3l4a9tH74.jpg?size=486x1080&quality=95&sign=19a4f26e04585b2ebcda0eafc58faa0a&type=album');
 insert into Workers (FullName, Phone, DepartmentName, Photo) values ('Rosita Placido', '313-713-7142', 'Skimia', 'http://dummyimage.com/213x100.png/cc0000/ffffff');
 insert into Workers (FullName, Phone, DepartmentName, Photo) values ('Pascale Albert', '460-982-7468', 'Mita', 'http://dummyimage.com/223x100.png/dddddd/000000');
 insert into Workers (FullName, Phone, DepartmentName, Photo) values ('Ximenes De''Vere - Hunt', '615-711-2569', 'Ntags', 'http://dummyimage.com/178x100.png/dddddd/000000');
