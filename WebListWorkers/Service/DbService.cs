@@ -4,6 +4,7 @@ namespace WebListWorkers.Service
 {
     public static class DbService
     {
+        public static int MyProperty { get; set; }
         public static void AddDbService(this WebApplicationBuilder builder)
         {
             {
